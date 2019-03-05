@@ -16,7 +16,7 @@ namespace Vagas.Paginas
 		{
 			InitializeComponent ();
 
-            DisplayAlert("MSG", vaga.NomeVaga, "OK");
+            BindingContext = vaga;
 		}
 	}
 }
